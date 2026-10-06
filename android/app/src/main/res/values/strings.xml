@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CSL CAD VIEW</string>
+    <!-- Use dev URL during development, or your shared URL after clicking Deploy in AI Studio -->
+    <string name="web_app_url">https://ais-dev-goa7utkaoogwg5jkaaj2q2-747718058428.asia-southeast1.run.app</string>
+    <string name="shared_app_url">https://ais-pre-goa7utkaoogwg5jkaaj2q2-747718058428.asia-southeast1.run.app</string>
+</resources>
