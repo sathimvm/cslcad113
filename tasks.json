@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1. Start Web CAD Server (npm run dev)",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "2. Build Android APK (Debug)",
+      "type": "shell",
+      "command": "./gradlew assembleDebug",
+      "options": {
+        "cwd": "${workspaceFolder}/android"
+      },
+      "windows": {
+        "command": ".\\gradlew.bat assembleDebug"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "3. Clean Android Project",
+      "type": "shell",
+      "command": "./gradlew clean",
+      "options": {
+        "cwd": "${workspaceFolder}/android"
+      },
+      "windows": {
+        "command": ".\\gradlew.bat clean"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

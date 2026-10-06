@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Card Background -->
+  <rect x="14" y="14" width="484" height="484" rx="56" ry="56" fill="#ffffff" stroke="#1da1f2" stroke-width="9" />
+
+  <!-- === THE SHIP === -->
+  <!-- Mast / Radar Tower -->
+  <rect x="210" y="44" width="15" height="60" fill="#0b4674" rx="2" />
+  <rect x="185" y="74" width="65" height="11" fill="#0b4674" rx="2" />
+  <rect x="198" y="60" width="38" height="6" fill="#0b4674" rx="1.5" />
+
+  <!-- Bridge / Superstructure - Top Tier -->
+  <polygon points="217,96 178,111 178,137 217,123" fill="#009fe3" />
+  <polygon points="217,96 217,123 256,111 256,96" fill="#0b4674" />
+  <line x1="184" y1="119" x2="212" y2="108" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.9" />
+  <line x1="222" y1="108" x2="250" y2="119" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Bridge / Superstructure - Lower Tier -->
+  <polygon points="217,123 156,146 156,179 217,156" fill="#009fe3" />
+  <polygon points="217,123 217,156 278,146 278,123" fill="#0b4674" />
+  <line x1="162" y1="158" x2="211" y2="139" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9" />
+  <line x1="223" y1="139" x2="272" y2="158" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Main Vessel Hull (Isometric Bow) -->
+  <path d="M 217,156 L 120,191 L 147,258 C 165,281 192,290 217,292 Z" fill="#0091ea" />
+  <path d="M 217,156 L 120,191 L 147,258" fill="none" stroke="#00b0ff" stroke-width="2" opacity="0.6" />
+  <path d="M 217,156 L 217,292 C 242,290 269,281 287,258 L 314,191 Z" fill="#0b4674" />
+  <line x1="217" y1="156" x2="217" y2="292" stroke="#ffffff" stroke-width="2.5" opacity="0.4" />
+
+  <!-- === DYNAMIC OCEAN WAVES === -->
+  <path d="M 102,252 C 131,252 154,294 199,294 C 244,294 267,261 308,261 C 326,261 337,267 344,271 C 332,280 316,287 301,287 C 262,287 238,318 195,318 C 154,318 131,285 102,276 Z" fill="#00a2e8" />
+  <path d="M 126,294 C 153,306 174,339 210,339 C 252,339 275,308 313,308 C 325,308 336,312 343,315 C 329,324 313,329 300,329 C 264,329 241,358 201,358 C 165,358 144,326 126,317 Z" fill="#0288d1" />
+
+  <!-- === CAD DRAFTING TRIANGLE RULER (SET SQUARE) === -->
+  <g id="triangle-ruler-sq">
+    <path d="M 420,102 L 420,344 L 275,243 Z M 392,172 L 327,243 L 392,298 Z"
+          fill="#273239"
+          fill-rule="evenodd" />
+
+    <!-- Ruler Hash Marks -->
+    <line x1="420" y1="128" x2="402" y2="128" stroke="#71828d" stroke-width="4" stroke-linecap="round" />
+    <line x1="420" y1="151" x2="408" y2="151" stroke="#71828d" stroke-width="3" stroke-linecap="round" />
+    <line x1="420" y1="174" x2="402" y2="174" stroke="#71828d" stroke-width="4" stroke-linecap="round" />
+    <line x1="420" y1="198" x2="408" y2="198" stroke="#71828d" stroke-width="3" stroke-linecap="round" />
+    <line x1="420" y1="221" x2="402" y2="221" stroke="#71828d" stroke-width="4" stroke-linecap="round" />
+    <line x1="420" y1="245" x2="408" y2="245" stroke="#71828d" stroke-width="3" stroke-linecap="round" />
+    <line x1="420" y1="268" x2="402" y2="268" stroke="#71828d" stroke-width="4" stroke-linecap="round" />
+    <line x1="420" y1="292" x2="408" y2="292" stroke="#71828d" stroke-width="3" stroke-linecap="round" />
+    <line x1="420" y1="316" x2="402" y2="316" stroke="#71828d" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- === BOLD TYPOGRAPHY: CSL CAD VIEW === -->
+  <text x="256" y="435"
+        text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="900"
+        font-size="44"
+        letter-spacing="1.5"
+        fill="#111111">CSL CAD VIEW</text>
+</svg>

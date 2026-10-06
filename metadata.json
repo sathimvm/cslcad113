@@ -1,0 +1,7 @@
+{
+  "name": "ShipView3D · Professional CAD Edition",
+  "description": "ShipView3D CAD viewer for 3DD, 3DCSL, DXF, and 3D models with measurement, section cut, and project management tools.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

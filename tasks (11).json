@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build APK (assembleDebug)",
+      "type": "shell",
+      "command": "./gradlew assembleDebug",
+      "windows": {
+        "command": ".\\gradlew.bat assembleDebug"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Clean Project",
+      "type": "shell",
+      "command": "./gradlew clean",
+      "windows": {
+        "command": ".\\gradlew.bat clean"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

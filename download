@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Android build outputs & local configs
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+.cxx/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Build packages (distribute via GitHub Releases)
+*.apk
+*.zip

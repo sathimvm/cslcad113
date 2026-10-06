@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-vscode.js-debug",
+    "dbaeumer.vscode-eslint",
+    "mathiasfrohlich.kotlin",
+    "vscjava.vscode-java-pack"
+  ]
+}
